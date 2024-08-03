@@ -1,8 +1,11 @@
-# PROJECT TITLE 
+# PREDICTING STUDENT WITHDRAWALS AT UNIVERISTY, TO IMPROVE NON-CONTINAUTATION RATES.
 
 
 ## NON-TECHNICAL EXPLANATION OF YOUR PROJECT
-100 words to explain what your project is about to a general audience. 
+The purpose of this model is to predict at a given point during the course (nominally 50% through) if a student is likely to withdraw from the course.
+Students withdrawing are classed as "non-continuation" students and are reported by the university.
+The model uses data from the VLE (Virtual Learning Environment), Student Assessment grades and Student Registration information systems to  make the predictions.
+
 
 ## DATA
 A summary of the data you’re using, remembering to include where you got it and any relevant citations. 
