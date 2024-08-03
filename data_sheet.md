@@ -1,43 +1,82 @@
-# Datasheet Template
+# DATASHEET
 
-As far as you can, complete the model datasheet. If you have got the data from the internet, you may not have all the information you need, but make sure you include all the information you do have. 
+The data that was used to create, train and optimise the models were an open-source dataset provided by the Open University.
+
+The data set can be found here: [Open University Learning Analytics Dataset](https://www.kaggle.com/datasets/thedevastator/open-university-learning-analytics-dataset/)
+
 
 ## Motivation
 
-- For what purpose was the dataset created? 
-- Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)? Who funded the creation of the dataset?
+This dataset provides an intimate look into student performance and engagement. It grants researchers access to numerous salient metrics of academic performance which illuminate a broad spectrum of student behaviors: how students interact with online learning material; quantitative indicators reflecting their academic outcomes; as well as demographic data such as age group, gender, prior education level among others.
+
+The main objective of this dataset is to enable analysts and educators alike with empirical insights underpinning individualized learning experiences - specifically in identifying cases when students may be 'at risk'. Given that preventive early interventions have been shown to significantly mitigate chances of course or program withdrawal among struggling students - having accurate predictive measures such as this can greatly steer pedagogical strategies towards being more success oriented.
+
+  #### Original owners of the database:
+  The Open University
+  Walton Hall, Milton Keynes
+  MK7 6AA
+  United Kingdom
+  contact: Zdenek Zdrahal (zdenek.zdrahal@open.ac.uk)
+
+  #### Donor of database:
+  Jakub Kuzilek (jakub.kuzilek@gmail.com)
+  Knowledge Media Institute, The Open University
+  Walton Hall, Milton Keynes, MK7 6AA, UK
+  
+  CIIRC, CTU in Prague
+  Zikova 1903/4, Prague, CZ
+  Martin Hlosta (martin.hlosta@open.ac.uk)
+  
+  Knowledge Media Institute, The Open University
+  Walton Hall, Milton Keynes, MK7 6AA, UK
+  Zdenek Zdrahal (zdenek.zdrahal@open.ac.uk)
+  
+  Knowledge Media Institute, The Open University
+  Walton Hall, Milton Keynes, MK7 6AA, UK
+  CIIRC, CTU in Prague
+  Zikova 1903/4, Prague, CZ
 
  
 ## Composition
 
-- What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)? 
-- How many instances of each type are there? 
-- Is there any missing data?
-- Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by    doctor–patient confidentiality, data that includes the content of individuals’ non-public communications)?
+There are seven files, all in .csv format, that contain the information.
+
+The files and number of instances are :
+- students in courses: 32953
+- course-presentations: 22
+- VLE pages: 6364
+- VLE log entries: 10655280
+- registration entries: 32953
+- assessments: 206
+- assessment entries: 173912
+
+
+There is missing data in the files.
+
+The data does not contain confidential information. The data has been processed such that no individual student can be identified by their data.
 
 ## Collection process
 
-- How was the data acquired? 
-- If the data is a sample of a larger subset, what was the sampling strategy? 
-- Over what time frame was the data collected?
+There is no information on how the data was acquired, if the data is a sample of a larger subset, or the time frame over which the data was collected.
 
 ## Preprocessing/cleaning/labelling
 
-- Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)? If so, please provide a description. If not, you may skip the remaining questions in this section. 
-- Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)? 
+Apart from sanitising the data to ensure student aninimity, there are no details about any preprocessing/cleaning/labeling of the data
  
 ## Uses
 
-- What other tasks could the dataset be used for? 
-- Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a dataset consumer might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other risks or harms (e.g., legal risks, financial harms)? If so, please provide a description. Is there anything a dataset consumer could do to mitigate these risks or harms? 
-- Are there tasks for which the dataset should not be used? If so, please provide a description.
+There are some other uses that the data could be used for. These are:
+- Analyzing Impact of Course Structure
+- Personalized Learning Paths
+- Online Learning Behavior Analysis
 
 ## Distribution
 
-- How has the dataset already been distributed? 
-- Is it subject to any copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?  
+The dataset has been distributed on Kaggle.
+
+The data set can be found here: [Open University Learning Analytics Dataset](https://www.kaggle.com/datasets/thedevastator/open-university-learning-analytics-dataset/)
 
 ## Maintenance
 
-- Who maintains the dataset?
+The expected update frequency is listed as "Never". So it appears that no-one will maintain the data.
 
