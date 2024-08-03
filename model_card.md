@@ -23,8 +23,21 @@ There are three data sources that need to be combined. First, each data file is 
 The VLE and Assessment data sets are truncated to only include data upto the defined threshold.
 The default threshold used is 50% of the course duration.
 
-After cleaning the data 
+After cleaning the data four models were optimised and trained. The four models and the hyperparameters for each model that were optimised are presented below:
 
+- Model 1: Decision Tree.
+  - Maximum Tree Depth
+- Model 2: Support Vector Machine
+  - C parameter
+  - gamma parameter
+- Model 3: k-Nearest Neighbour
+  - Number of nearest neighbours
+  - Weights (of neighbours)
+- Model 4: Neural Network
+  - Number of nodes in the first hidden layer
+  - Number of nodes in the second hidden layer
+
+In all cases I used a grid seach methodolgy to optimise the hyperparameters. This is mainly becuase the optimisiation time for the models was relatively short in duration (longest was approximately 15 minutes).
 
 ## Performance
 
