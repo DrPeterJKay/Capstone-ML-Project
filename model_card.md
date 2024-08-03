@@ -18,7 +18,13 @@ A binary prediction if a student is likely to withdraw (1) or not (0)
 
 ### Model Architecture:
 
-** Describe the model architecture you’ve used
+There is significant pre-processing of the data needed.
+There are three data sources that need to be combined. First, each data file is cleaned to remove any row entries that have blank fields.
+The VLE and Assessment data sets are truncated to only include data upto the defined threshold.
+The default threshold used is 50% of the course duration.
+
+After cleaning the data 
+
 
 ## Performance
 
