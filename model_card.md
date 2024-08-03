@@ -4,11 +4,21 @@ See the [example Google model cards](https://modelcards.withgoogle.com/model-rep
 
 ## Model Description
 
-**Input:** Describe the inputs of your model 
+### Input:
 
-**Output:** Describe the output(s) of your model
+Numeric. The following inputs are required:
+- Grade Mean (%): Mean of all the grades upto the threshold (nominally 50% of the way through the course)
+- Grade Standard Deviation (%): Standard Deviation of all the grades upto the threshold (nominally 50% of the way through the course)
+- VLE Mean (-/day): Mean of the number of daily interactions with the VLE (Virtual Learning Environment) upto the threshold (nominally 50% of the way through the course)
+- VLE Standard Deviation (-/day):  Standard Deviation of the number of daily interactions with the VLE upto the threshold (nominally 50% of the way through the course)
 
-**Model Architecture:** Describe the model architecture you’ve used
+### Output:
+
+A binary prediction if a student is likely to withdraw (1) or not (0)
+
+### Model Architecture:
+
+** Describe the model architecture you’ve used
 
 ## Performance
 
