@@ -50,7 +50,7 @@ The table below summarised the results:
 |    DT 	|             0.98 	|           0.48 	|             21.03 	|       0.27 	|     0.01 	|
 |   SVM 	|             0.21 	|           0.19 	|            873.66 	|      10.63 	|     5.03 	|
 |   KNN 	|             1.00 	|           0.60 	|             70.35 	|      70.43 	|     0.35 	|
-|    NN 	|             0.00 	|           0.00 	|            149.89 	|       0.06 	|     0.03 	|
+|    NN 	|             0.31 	|           0.31 	|            149.89 	|       0.06 	|     0.03 	|
 
 Overal the k-Nearest Neighbour model was the best. It had good training and validation F1-scores and quick to optimise and run.
 
